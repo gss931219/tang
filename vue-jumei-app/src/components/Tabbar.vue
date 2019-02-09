@@ -8,9 +8,9 @@
         <img :src="img2" slot="icon">名品特卖
         <!-- <router-link to="brandSale">名品特卖</router-link> -->
       </mt-tab-item>
-      // <mt-tab-item id="直播特区" >
-      //   <img :src="img3" slot="icon">直播特区
-      // </mt-tab-item>
+      <mt-tab-item id="直播特区" >
+        <img :src="img3" slot="icon">直播特区
+      </mt-tab-item>
       <mt-tab-item id="购物车" >
         <img :src="img4" slot="icon">购物车
       </mt-tab-item>
