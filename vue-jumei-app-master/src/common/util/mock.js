@@ -6,15 +6,15 @@ export default Mock.mock('/api/data', (req, res) => {
       activityLists: [
         {
           id: "1",
-          title: '美国•【诠释唇色】魅可（MAC）时尚唇膏3g，爆款色号上架，诱惑无法抗拒！',
+          title: '【金镶玉】--和田白玉-莲花观音',
           type: 'jumei_deal',
           imgs: [
             'http://mp6.jmstatic.com/product/001/388/1388308_std/1388308_1000_1000.jpg?v=1487312982&imageView2/2/w/800/q/90',
             'http://p12.jmstatic.com/html_editor/201702/24/14879178041530.jpg',
           ],
           cartImg: 'http://mp5.jmstatic.com/product/001/343/1343667_std/1343667_1000_1000.jpg?v=1466486255&imageView2/2/w/800/q/90',
-          nowPrice: 148,
-          oldPrice: 170,
+          nowPrice: 675,
+          oldPrice: 0,
           discount: 8.6,
           buyNum: 4166,
           inventory: 1000,
@@ -40,7 +40,7 @@ export default Mock.mock('/api/data', (req, res) => {
               member: '白金会员',
               joinTime: 567,
               sign: '',
-              comment: '这是本菇凉的第一只M，一直想买但苦于没有色号啊，那天突然心血来潮逛了一下小美，结果发现这次货比较齐，选了一只比较缺的橘色系，以前特别爱橘色，不过现在一直用的迪奥999，也是在小美家买的，很不错哦。这次的子弹头很满意，颜色是我想要的，虽然买之前做了很大一番功课，还一度怀疑自己是不是买错了色号，拿回来不好看怎么办。不过现在心放下了，哈哈，喜欢橘色系的妹子可以考虑一下这只哦，不挑皮，而且夏天要来了，这个颜色非常有活力。第一次在 写这么多评论，可以看得出来我是真心喜欢，哈哈。',
+              comment: ' 给家里孩子买的，孩子小容易受惊吓，买个观音吊坠压压惊，吊坠做工不错，看的出来雕刻的很用心，而且还是开过光的，这样就不用自己再去开了，省了不少事。',
               imgs: [
                 'http://p12.jmstatic.com/comment/1051597715-1487402343-0137_270_270.jpg',
                 'http://p12.jmstatic.com/comment/1051597715-1487402338-8247_270_270.jpg',

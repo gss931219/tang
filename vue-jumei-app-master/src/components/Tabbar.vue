@@ -4,14 +4,11 @@
       <mt-tab-item id="首页" >
         <img :src="img1" slot="icon">首页
       </mt-tab-item>
-      <mt-tab-item id="名品特卖" to="/brandSale">
-        <img :src="img2" slot="icon">名品特卖
-        <!-- <router-link to="brandSale">名品特卖</router-link> -->
+      <mt-tab-item id="全部" to="/brandSale">
+        <img :src="img2" slot="icon">全部
+        <!-- <router-link to="brandSale">全部</router-link> -->
       </mt-tab-item>
-      <mt-tab-item id="直播特区" >
-        <img :src="img3" slot="icon">直播特区
-      </mt-tab-item>
-      <mt-tab-item id="购物车" >
+       <mt-tab-item id="购物车" >
         <img :src="img4" slot="icon">购物车
       </mt-tab-item>
       <mt-tab-item id="我的">
@@ -53,7 +50,7 @@ export default {
         } else {
           this.img1="static/icon/index.png"
         }
-        if (this.selected == "名品特卖") {
+        if (this.selected == "全部") {
           this.$router.push('/brandsale')
           this.img2="static/icon/brandchoose.png"
         } else {

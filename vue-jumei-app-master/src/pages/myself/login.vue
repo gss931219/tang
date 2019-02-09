@@ -28,9 +28,7 @@
             </li>
           </ul>
           <form class="login-form">
-            <div class="other-login">
-              或使用是手机登录
-            </div>
+           
             <div class="input_phone">
               <input type="text" maxlength="11" placeholder="请输入正确手机号" v-model="phoneInput">
               <div class="register_yzm" 
@@ -43,7 +41,7 @@
               <input type="text" maxlength="6" name="" placeholder="请输入6位验证码" v-model="yzmInput">
             </div>
             <div class="register_jm_account">
-              使用 账号登录
+              使用账号登录
             </div>
             <span
               class="register_button"
