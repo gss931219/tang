@@ -43,7 +43,7 @@
               <input type="text" maxlength="6" name="" placeholder="请输入6位验证码" v-model="yzmInput">
             </div>
             <div class="register_jm_account">
-              使用聚美账号登录
+              使用 账号登录
             </div>
             <span
               class="register_button"

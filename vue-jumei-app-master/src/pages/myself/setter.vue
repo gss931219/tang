@@ -22,7 +22,7 @@
       </div>
       <div class="block b4">
         <mt-cell title="清理缓存"  class="underline"></mt-cell>
-        <mt-cell title="关于聚美" class="underline"></mt-cell>
+        <mt-cell title="关于 " class="underline"></mt-cell>
         <mt-cell title="日志上传"></mt-cell>
       </div>
       <div class="signout">

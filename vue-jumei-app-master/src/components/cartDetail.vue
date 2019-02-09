@@ -20,7 +20,7 @@
         <span class="check-icon" @click="chooseAll = !chooseAll">
           <img :src="chooseAll?checkIcon:checkNotIcon" alt="">
         </span>
-        <span class="title">聚美优品发货</span>
+        <span class="title">  发货</span>
       </div>
       <li class="group" v-for="(item, index) in cartLists" :key="index">
         <span class="check-icon" @click="chooseOne = !chooseOne">

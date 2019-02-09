@@ -8,7 +8,7 @@
             <img :src="item.avatar" alt="">
             <span class="detail">
               <p class="name">{{item.name}}</p>
-              <span class="block">{{item.member}}  加入聚美{{item.joinTime}}天</span>
+              <span class="block">{{item.member}}  加入 {{item.joinTime}}天</span>
             </span>
             <span class="buyTime">购买于 {{item.buyTime}}</span>
           </div>

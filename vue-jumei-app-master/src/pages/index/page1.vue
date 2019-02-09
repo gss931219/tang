@@ -1,5 +1,4 @@
 <template lang="html">
-	<!--分类 签到部分-->
 <div class="goods">
   <div class="content-wrapper" ref="contentWrapper">
     <div>
@@ -11,7 +10,6 @@
           </p>
         </li>
       </ul>
-      <!--好物低价-限时购部分-->
       <div class="activity">
         <span class="title">好物低价-限时购</span>
         <span class="time">20:00</span>
@@ -23,8 +21,6 @@
         </span>
         <ActivityList></ActivityList>
       </div>
-      
-      <!--8.6折-->
       <section class="mixcart-list">
         <div class="tab-title">
           <span class="title-item" v-for="(item, index) in tabs"

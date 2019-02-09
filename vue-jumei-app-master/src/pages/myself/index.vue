@@ -112,7 +112,7 @@ export default {
       fundContent: [
         {number:'0个', title: '红包'},
         {number:'0张', title: '现金券'},
-        {number:'0元', title: '聚美余额'},
+        {number:'0元', title: ' 余额'},
         {number:'0元', title: '粉丝红包'},
         {number:'0元',title: '礼品卡'},
       ],
